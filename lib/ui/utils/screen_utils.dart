@@ -12,6 +12,6 @@ class ScreenUtils {
         width < ScreenUtils.tabletMaxSize) {
       return DeviceType.tablet;
     }
-    return DeviceType.tablet;
+    return DeviceType.desktop;
   }
 }
